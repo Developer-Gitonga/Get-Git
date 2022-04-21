@@ -126,6 +126,9 @@
               "devServerTarget": "git-get:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
