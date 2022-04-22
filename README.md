@@ -1,6 +1,6 @@
 # GitGet
 
-# br>
+
 GitGet is simply a web application that Web app that enables you to display github profiles and repos by searching using their username. This project was generated with Angular CLI version 13.1.4.
 
 # Development server
