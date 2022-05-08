@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserFetchService } from '../user-fetch.service';
+
 @Component({
   selector: 'app-user',
   templateUrl: './user.component.html',
