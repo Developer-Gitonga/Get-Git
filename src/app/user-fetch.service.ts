@@ -20,6 +20,7 @@ export class UserFetchService {
   date: any;
   //Repos
   repos: any;
+  
   constructor(private http: HttpClient) { }
   userFetch(username: string){
     let userUrl = `https://api.github.com/users/${username}`;
