@@ -76,6 +76,5 @@ export class UserFetchService {
       );
     });
     return promise2;
-
   }
 }
