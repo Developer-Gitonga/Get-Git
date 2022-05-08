@@ -8,3 +8,5 @@ export interface User{
     following: number;
     created_at: string;
 }
+
+
