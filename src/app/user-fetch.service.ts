@@ -56,6 +56,7 @@ export class UserFetchService {
     });
     return promise;
   }
+  
   repoFetch(username: string){
     let repoUrl = `https://api.github.com/users/${username}/repos?per_page=15&sort='created: asc'`;
     let promise2 = new Promise((resolve, reject)=>{
