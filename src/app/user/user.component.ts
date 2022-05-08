@@ -6,6 +6,7 @@ import { UserFetchService } from '../user-fetch.service';
   templateUrl: './user.component.html',
   styleUrls: ['./user.component.scss']
 })
+
 export class UserComponent implements OnInit {
 
   magnify: string = 'assets/search(1).png';
